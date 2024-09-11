@@ -1,0 +1,91 @@
+@charset "UTF-8"; 
+
+body,html{
+    background-color:#fff;
+    padding-top:0;
+}
+
+body{
+    background:linear-gradient(#c3c7ed,#9eebed);
+    margin: 0 3% 0 2%;
+    padding: 0 2%  0 2%;
+}
+
+.title{
+    background-color:rgba(147, 176, 233, 0.463);
+    color:rgb(8, 159, 240);
+    font-size: 300%;
+    text-shadow: 1px 2px 3px #000;
+    padding: 20px;
+    text-align: center;
+    border-style: groove;
+}
+
+.gameintro{
+    font-size: 200%;
+    text-shadow: 2px 3px 5px #10b2e3;
+    text-align: center;
+}
+
+div ul:first-child{
+    background:linear-gradient(120deg,#aee0f2 70%, #0d6c89) ;
+    border-style: groove;
+}
+
+div ul:last-child{
+    background:linear-gradient(120deg, #95c3cc 70%,  #0a5969);
+    border-style: groove;
+}
+
+.battle64{
+    background:linear-gradient(120deg,#d4e5a3,#58710d) ;
+    border-style: groove;
+}
+
+li{
+    padding-top: 30px;
+    font-size: 120%;font-weight: bold;
+}
+
+
+.gamelist{
+    color:rgb(39, 11, 200);
+    text-align: center;
+}
+
+#footer{
+    margin: auto;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 10%;
+    background: #333;
+}
+
+.item{
+    color: #fffdfd;
+}
+
+.copyright{
+    padding-bottom:1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-align: center;
+    background: #fff;
+}
+
+.video{
+    width: 30%;
+    height: 30%;
+}
+
+.mainphoto{
+    width: 450px;
+    height: 450px;
+}
+
+img{
+    object-fit: cover;
+    height:300px;
+    width:300px;
+    aspect-ratio: 1/1;
+}

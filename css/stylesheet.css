@@ -1,0 +1,105 @@
+header{
+    background:rgba(14, 157, 186,.5);
+    padding: 2% 0;
+    border-style: groove;
+}
+
+.title{
+    color:#022b27;
+    width: 580px;
+    height: 50px;
+    background-color: #f4f8f6;
+    margin: 0 auto;
+    text-align: center;
+    border-style: ridge;
+}
+.body,html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#d2d2d8,#b2b8f4);
+    background-repeat: no-repeat; 
+}
+
+body{
+    padding: 8%;
+    padding-top: 5%;
+}
+
+p{
+    text-align: center;
+}
+
+.btn_ef{
+    text-align: center;
+}
+
+.btn{
+    margin: 0 3%;
+    width: 150px;
+    height:50px;
+    padding: 4px 6px;   /*余白を設定*/
+    color:#FFF;     /*文字の色*/
+    font-size: 100%;
+    border-radius:3px; /*角を丸める*/
+}
+#blue_btn{
+    background:#7d04fe; /*ボタン色を設定*/
+}
+#red_btn{
+    background:#f90452; /*ボタン色を設定*/
+}
+#green_btn{
+    background: #01fb5d; /*ボタン色を設定*/
+}
+.btn-square:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.btn:hover{
+    /* カーソルが乗った時にカーソルの形とボタンの大きさを変える */
+    transform: scale(1.1,1.1);
+    cursor:pointer
+}
+
+section{
+    display:flex;
+}
+
+
+.square {
+    margin:auto;
+    margin-top: 5%;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(#01e3bd 20%, #44e0e2 20%);
+    background-position: 0px 0px;
+  }
+
+.square2 {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(#01e3bd 20%, #44e0e2 20%);
+    background-position: 0px 0px;
+  }
+
+#footer{
+    margin: auto;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 10%;
+    background: #333;
+}
+
+.item{
+    color: #fffdfd;
+}
+
+.copyright{
+    padding-bottom:1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    text-align: center;
+    background: #fff;
+}
